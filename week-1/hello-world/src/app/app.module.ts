@@ -1,3 +1,11 @@
+/**
+ * Title: app.module.ts
+ * Author: Professor Krasso
+ * Date: 7 July 2020
+ * Modified By: Diandra McKenzie
+ * Description: App module
+ */
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 

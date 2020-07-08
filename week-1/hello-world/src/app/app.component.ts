@@ -1,3 +1,11 @@
+/**
+ * Title: app.component.ts
+ * Author: Professor Krasso
+ * Date: 6 July 2020
+ * Modified by: Diandra McKenzie
+ * Description: App component
+ */
+
 import { Component } from '@angular/core';
 
 @Component({
