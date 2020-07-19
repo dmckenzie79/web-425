@@ -1,0 +1,28 @@
+<!--
+ * Title: composer-list.component.html
+ * Author: Professor Krasso
+ * Date: 14 July 2020
+ * Modified by: Diandra McKenzie
+ * Description: HTML for Composer List
+-->
+
+<div class="row">
+
+  <div class="col-sm-12">
+    <table class="table table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th class="col-sm-6" scope="col">Full name</th>
+          <th class="col-sm-6" scope="col">Genre</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let composer of composers">
+        <tr>
+          <td scope="row">{{ composer.fullName }}</td>
+          <td>{{composer.genre}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
