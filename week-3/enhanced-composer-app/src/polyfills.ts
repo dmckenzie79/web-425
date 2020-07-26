@@ -1,4 +1,13 @@
 /**
+ * Title: polyfills.ts
+ * Author: Professor Krasso
+ * Date: 23 July 2020
+ * Modified by: Diandra McKenzie
+ * Description: Polyfills ts file
+ */
+
+
+/**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.
  *
