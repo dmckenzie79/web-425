@@ -1,0 +1,13 @@
+/*
+Title: sign-in.component.css
+Author: Professor Krasso
+Date: 22 July 2020
+Modified By: Diandra McKenzie
+Description: Styling for Sign-In Page
+ */
+
+.signIn-container {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
