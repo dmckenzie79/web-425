@@ -1,0 +1,19 @@
+<!--
+ * Title: composer-details.component.html
+ * Author: Professor Krasso
+ * Date: 21 July 2020
+ * Modified by: Diandra McKenzie
+ * Description: HTML for Composer Details
+-->
+
+<div class="row">
+  <div class="col-sm-12">
+    <ul class="list-group">
+      <li class="list-group-item">Composer ID: {{ composer.composerId }}</li>
+      <li class="list-group-item">Full name: {{ composer.fullName}}</li>
+      <li class="list-group-item">Genre: {{ composer.genre }}</li>
+    </ul>
+    <br />
+    <a routerLink="/composer-list" class="float-right">Return to Composers</a>
+  </div>
+</div>
