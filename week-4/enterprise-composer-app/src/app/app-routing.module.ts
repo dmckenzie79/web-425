@@ -18,7 +18,8 @@ const routes: Routes = [
 
   {
     path: '',
-    component: ComposerListComponent
+    redirectTo: '/composer-list',
+    pathMatch: 'full'
   },
   {
     path: 'composer-list',
