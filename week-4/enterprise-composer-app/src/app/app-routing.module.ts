@@ -18,7 +18,6 @@ const routes: Routes = [
 
   {
     path: '',
-    redirectTo: '/composer-list',
     component: ComposerListComponent
   },
   {
