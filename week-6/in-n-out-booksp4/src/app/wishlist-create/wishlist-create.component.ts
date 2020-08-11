@@ -18,17 +18,16 @@ export class WishlistCreateComponent implements OnInit {
 
   @Output() addItemEmitter = new EventEmitter<IWishlistItem>();
 
-  item: IWishlistItem
+  item: IWishlistItem;
 
   constructor() {
-    this.item = {} as IWishlistItem
+    this.item = {} as IWishlistItem;
    }
 
   ngOnInit(): void {
   }
 
   addItem() {
-    console.log('Inside wishlist-create.component.ts (child) - addItem() function');
     this.addItemEmitter.emit({
       title: this.item.title,
       authors: this.item.authors

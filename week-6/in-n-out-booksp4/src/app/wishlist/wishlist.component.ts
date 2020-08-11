@@ -24,10 +24,7 @@ export class WishlistComponent implements OnInit {
   }
 
   updateItemsHandler(item: IWishlistItem) {
-    console.log('Inside the wishlist.component.ts (parent) - updateItemsHandler() function');
-    console.log(item);
     this.items.push(item);
-    console.log(this.items);
   }
 
 }
